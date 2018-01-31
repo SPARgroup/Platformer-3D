@@ -9,15 +9,20 @@ public class PlayerFollow : MonoBehaviour {
     private bool reachedPlayer = false;
 
 	// Use this for initialization
-	void Start () {
+	//void Start () {
 
-        target = GameObject.FindGameObjectWithTag("Player");
+        
 
-	}
-
+	//}
+    
 	
 	// Update is called once per frame
 	void Update () {
+
+        transform.LookAt(target.transform);
+
+
+
         if (reachedPlayer == false)
         {
             playerPos = new Vector3(target.transform.position.x, transform.position.y, target.transform.position.z);
