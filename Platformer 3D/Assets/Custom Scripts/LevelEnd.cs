@@ -5,12 +5,11 @@ using UnityEngine;
 public class LevelEnd : MonoBehaviour {
 
    
-   private BoxCollider componentcollider;
 
 
 	// Use this for initialization
 	void Start () {
-        componentcollider = this.GetComponent<BoxCollider>();
+        
        	}
 	
 	// Update is called once per frame
@@ -20,6 +19,7 @@ public class LevelEnd : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
+        //load scene and other stuff needeed
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("YAYAYAYA");

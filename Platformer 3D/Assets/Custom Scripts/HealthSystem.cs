@@ -10,7 +10,6 @@ public class HealthSystem : MonoBehaviour {
     public float healfreq = 0.5f;
     public bool isHealing = false;
 
-    public IEnumerator p_coroutine;
 
 	// Use this for initialization
 	void Start () {
@@ -27,14 +26,5 @@ public class HealthSystem : MonoBehaviour {
         
     }
 
-    public IEnumerator HealOverTime(int amount, float freq)
-    {
-        while (health < 100 && isBeingDamaged == false)
-        {
-            yield return new WaitForSeconds(1 / freq);
-            health += amount;
-            isHealing = true;        
-        }
-        
-    }
+    
 }

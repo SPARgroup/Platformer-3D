@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour {
 
-    public int damageperhit = 20;
+   /* public int damageperhit = 20;
     public float hitfreq = 0.5f;
     private float origEnemySpeed = 0;
     public bool isDamaging = false;
@@ -61,5 +61,5 @@ public class Attack : MonoBehaviour {
 
     }
 
-
+*/
 }
