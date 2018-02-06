@@ -24,7 +24,7 @@ public class EnemyAI : MonoBehaviour {
         //error handling
 		if (Target == null)
         {
-            Debug.Log("Enemy says : Who should I follow? You havenot set my target");
+            Debug.Log("Enemy says : Who should I follow? You have not set my target");
         }
 
         hs = Target.GetComponent<HealthSystem>();
