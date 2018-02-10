@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyAI : MonoBehaviour {
@@ -9,10 +8,14 @@ public class EnemyAI : MonoBehaviour {
     public float minDistance = 2f;
     public float distanceFromPlayer;
     public float hitFreq = 0.5f;
+    public float health = 50f;
+
     public int damageOverTimeAmount = 10;
+
     public bool isDamaging = false;
 
     public IEnumerator damageOverTimecoroutine; 
+
     public HealthSystem hs;
 
 	// Use this for initialization
@@ -56,10 +59,17 @@ public class EnemyAI : MonoBehaviour {
         }
 	}
 
+    public void TakeDamage(float amount)
+    {
+        health -= amount;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
 
     //revise this method
- 
-
     public void Chase(float speed)
     {
         //follow the player at a fixed speed

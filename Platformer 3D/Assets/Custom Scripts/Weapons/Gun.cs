@@ -25,7 +25,7 @@ public class Gun : MonoBehaviour {
         {
             Debug.Log(hit.transform.name);
 
-            Enemy enemy = hit.transform.GetComponent<Enemy>();
+            EnemyAI enemy = hit.transform.GetComponent<EnemyAI>();
 
             if (hit.rigidbody != null)
             {
