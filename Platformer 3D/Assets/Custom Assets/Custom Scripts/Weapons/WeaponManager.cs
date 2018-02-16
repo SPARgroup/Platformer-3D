@@ -1,24 +1,47 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
-public class WeaponManager : MonoBehaviour {
+public class WeaponManager : MonoBehaviour
+{
 
     public int selectedWeapon = 1;
-   
-    public GameObject [] weapons = new GameObject [4];
 
-	// Use this for initialization
-	void Start () {
+    public Transform[] weapons = new Transform[4];
+
+    // Use this for initialization
+    void Start()
+    {
         SelectWeapon();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
 
         int previouSelectedWeapon = selectedWeapon;
 
-       if(Input.GetAxisRaw("Mouse ScrollWheel") > 0f)
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            weapons[previouSelectedWeapon].gameObject.SetActive(false);
+            weapons[0].gameObject.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            weapons[previouSelectedWeapon].gameObject.SetActive(false);
+            weapons[1].gameObject.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            weapons[previouSelectedWeapon].gameObject.SetActive(false);
+            weapons[2].gameObject.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            weapons[previouSelectedWeapon].gameObject.SetActive(false);
+            weapons[3].gameObject.SetActive(true);
+        }
+
+        if (Input.GetAxisRaw("Mouse ScrollWheel") > 0f)
         {
             if (selectedWeapon == transform.childCount - 1)
             {
@@ -43,16 +66,16 @@ public class WeaponManager : MonoBehaviour {
             }
 
         }
-        if(previouSelectedWeapon != selectedWeapon)
+        if (previouSelectedWeapon != selectedWeapon)
         {
-             SelectWeapon();
+            SelectWeapon();
         }
     }
 
     void SelectWeapon()
     {
         int i = 0;
-        foreach (GameObject weapon in transform)
+        foreach (Transform weapon in transform)
         {
             weapons[i] = weapon;
             if (i == selectedWeapon)
