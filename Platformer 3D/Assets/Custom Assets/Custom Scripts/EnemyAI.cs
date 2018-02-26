@@ -18,9 +18,13 @@ public class EnemyAI : MonoBehaviour {
 
     public HealthSystem hs;
 
+    public SpawnManager sm;
+
 	// Use this for initialization
 	void Start ()
     {
+        //spawnmanager required to trackj enemies in scene
+        sm = GameObject.FindGameObjectWithTag("SpawnManager").GetComponent <SpawnManager> ();
 
         Target = GameObject.FindGameObjectWithTag("Player");
 
@@ -53,7 +57,7 @@ public class EnemyAI : MonoBehaviour {
         }
         else
         {
-            //start sending damage
+            //start sending damage (refer to damage over time)
             isDamaging = true;
             Debug.Log(" I am hurting the player!");
         }
@@ -64,7 +68,11 @@ public class EnemyAI : MonoBehaviour {
         health -= amount;
         if (health <= 0)
         {
+            //destroys this enemy
             Destroy(gameObject);
+
+            //decreases the total number of enemies in scene by 1 (See Script Spawn Manager for reference
+            sm.enemiesInScene--;
         }
     }
 

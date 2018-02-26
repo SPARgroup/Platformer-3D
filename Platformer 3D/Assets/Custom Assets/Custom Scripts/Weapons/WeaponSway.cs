@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class WeaponSway : MonoBehaviour {
 
-    public float amount;
-    public float smoothAmount;
-    public float maxAmount;
-    public float maxRotSway;
-    public float smoothRot;
-    public float tiltAngle;
+    public float amount = 0.01f;
+    public float smoothAmount = 4f;
+    public float maxAmount = 0.06f;
+    public float maxRotSway = 30f;
+    public float smoothRot = 1.5f;
+    public float tiltAngle = 3f;
 
 
     public Vector3 initPos;
@@ -45,6 +45,7 @@ public class WeaponSway : MonoBehaviour {
         Quaternion finalRot = Quaternion.Euler(tiltAroundX, 0, tiltAroundZ);
 
         transform.localRotation = Quaternion.Lerp(transform.localRotation, finalRot, Time.deltaTime * smoothRot);
+        
 
     }
 }

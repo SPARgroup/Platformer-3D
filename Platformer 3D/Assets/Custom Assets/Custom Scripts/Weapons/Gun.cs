@@ -8,18 +8,25 @@ public class Gun : MonoBehaviour
     public float impactForce = 50f;
     public float fireRate = 1f;
 
+    public WeaponGraphics weapongraphics;
+
 
     public float reloadTime = 1f; //this will be used as time in seconds
 
     public int magSize = 8;
     public int maxAmmo = 12;
 
-    private int currentMagSize = 8;
-    private int currentTotalAmmo = 12;
+    [SerializeField] private int currentMagSize = 8;
+    [SerializeField] private int currentTotalAmmo = 12;
 
     public Camera Cam;
 
     private float nextTimeToFire = 0f;
+
+    private void Start()
+    {
+        weapongraphics = this.GetComponent<WeaponGraphics>();
+    }
 
     void Update()
     {
@@ -38,6 +45,7 @@ public class Gun : MonoBehaviour
         {
             nextTimeToFire = Time.time + (1f / fireRate);
             Shoot();
+            weapongraphics.PlayMuzzleFlash();
         }
     }
 
@@ -63,9 +71,10 @@ public class Gun : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(Cam.transform.position, Cam.transform.forward, out hit, range))
         {
+
             Debug.Log(hit.transform.name);
             currentMagSize--;
-            currentTotalAmmo--;
+            //currentTotalAmmo--;
 
             EnemyAI enemy = hit.transform.GetComponent<EnemyAI>();
 

@@ -40,10 +40,7 @@ GameObject:
   - component: {fileID: 33366451858066080}
   - component: {fileID: 135778474964973630}
   - component: {fileID: 23376085959819056}
-  - component: {fileID: 114529462713030264}
-  - component: {fileID: 114450940397890940}
-  - component: {fileID: 135818163699846054}
-  - component: {fileID: 114451392122789054}
+  - component: {fileID: 114313615445243156}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -251,7 +248,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114450940397890940
+--- !u!114 &114313615445243156
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -259,39 +256,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1499190659274870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aef254ce377f2040895218bbc35a589, type: 3}
+  m_Script: {fileID: 11500000, guid: e2a19ec421b175641849d4ccdfc8934f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageperhit: 20
-  hitfreq: 0.5
+  moveSpeed: 2
+  minDistance: 1.8
+  distanceFromPlayer: 0
+  hitFreq: 0.5
+  health: 50
+  damageOverTimeAmount: 10
   isDamaging: 0
---- !u!114 &114451392122789054
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1499190659274870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aef254ce377f2040895218bbc35a589, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageperhit: 30
-  hitfreq: 0.5
-  isDamaging: 0
---- !u!114 &114529462713030264
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1499190659274870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34fdb94b7ca28424bbaea4c6393703ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  enemySpeed: 2
+  hs: {fileID: 0}
+  sm: {fileID: 0}
 --- !u!135 &135778474964973630
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -302,17 +278,5 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.75946665
-  m_Center: {x: 0, y: 0, z: 0.25946665}
---- !u!135 &135818163699846054
-SphereCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1499190659274870}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.80646914
-  m_Center: {x: -0.11117679, y: 0, z: 0.1952923}
+  m_Radius: 0.7417693
+  m_Center: {x: 0, y: 0, z: 0.24176931}
