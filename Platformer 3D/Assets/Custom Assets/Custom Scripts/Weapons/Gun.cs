@@ -14,10 +14,10 @@ public class Gun : MonoBehaviour
     public float reloadTime = 1f; //this will be used as time in seconds
 
     public int magSize = 8;
-    public int maxAmmo = 12;
+    public int maxAmmo = 104;
 
     [SerializeField] private int currentMagSize = 8;
-    [SerializeField] private int currentTotalAmmo = 12;
+    [SerializeField] private int ammoNotInMag = 96;
 
     public Camera Cam;
 
@@ -53,13 +53,15 @@ public class Gun : MonoBehaviour
     {
         int reduceAmount = magSize - currentMagSize;
 
-        if (currentTotalAmmo <= reduceAmount)
+        if (ammoNotInMag<= reduceAmount)
         {
-            currentMagSize = currentTotalAmmo;
+            currentMagSize += ammoNotInMag;
+            ammoNotInMag = 0;
         }
         else
         {
             currentMagSize += reduceAmount;
+            ammoNotInMag -= reduceAmount;
         }
 
     }
@@ -74,7 +76,6 @@ public class Gun : MonoBehaviour
 
             Debug.Log(hit.transform.name);
             currentMagSize--;
-            //currentTotalAmmo--;
 
             EnemyAI enemy = hit.transform.GetComponent<EnemyAI>();
 
