@@ -21,10 +21,11 @@ public class HealthSystem : MonoBehaviour {
     void Update () {
         if (health <= 0)
         {
-            Debug.Log("Mar gaya bhai");
+            Debug.Log("Katayi jihaadiyon ne maardiya merekoooo");
         }
         
     }
 
     
 }
+// Copyright SPAR Group

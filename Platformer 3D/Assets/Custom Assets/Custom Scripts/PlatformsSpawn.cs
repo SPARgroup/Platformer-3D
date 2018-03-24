@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class PlatformsSpawn : MonoBehaviour {
 
+    //Movement component of the script has to be removed
+
+
     public int maxPlatforms = 50;
     public int currentPlatforms = 0;
     public int numberOfSpawnPoints = 3;

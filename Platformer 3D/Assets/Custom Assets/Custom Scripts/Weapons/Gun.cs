@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using System.Collections;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class Gun : MonoBehaviour
 {
@@ -7,11 +9,13 @@ public class Gun : MonoBehaviour
     public float range = 100f;
     public float impactForce = 50f;
     public float fireRate = 1f;
+    public float reloadTime = 2f; //reload time for gun in seconds
+
+    public bool sprintCancelsReload = true;
+    public bool isReloading = false;
 
     public WeaponGraphics weapongraphics;
-
-
-    public float reloadTime = 1f; //this will be used as time in seconds
+    public FirstPersonController fpsController;
 
     public int magSize = 8;
     public int maxAmmo = 104;
@@ -23,9 +27,15 @@ public class Gun : MonoBehaviour
 
     private float nextTimeToFire = 0f;
 
+    private Coroutine reloadCoroutine;
+
     private void Start()
     {
         weapongraphics = this.GetComponent<WeaponGraphics>();
+
+        Cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        fpsController = player.GetComponent<FirstPersonController>();
     }
 
     void Update()
@@ -33,12 +43,16 @@ public class Gun : MonoBehaviour
 
         if (currentMagSize == 0)
         {
-            Reload();
+            reloadCoroutine = StartCoroutine(Reload(reloadTime));
+
+            //play Animation
         }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            Reload();
+            reloadCoroutine = StartCoroutine(Reload(reloadTime));
+
+            //play Animation
         }
 
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire && currentMagSize != 0)
@@ -47,10 +61,29 @@ public class Gun : MonoBehaviour
             Shoot();
             weapongraphics.PlayMuzzleFlash();
         }
+
+        // If true, cancels reload everytime you sprint while reloading
+        if (sprintCancelsReload == true)
+        {
+            if (Input.GetKey(KeyCode.LeftShift) && isReloading == true)
+            {
+                StopCoroutine(reloadCoroutine);
+                isReloading = false;
+                Debug.Log("Reload cancelled due to sprinting");
+            }
+        }
     }
 
-    void Reload()
+
+    //Reload system
+    IEnumerator Reload(float time)
     {
+        Debug.Log("Reloading"); //aise hi
+
+        isReloading = true;
+
+        yield return new WaitForSeconds(reloadTime);
+
         int reduceAmount = magSize - currentMagSize;
 
         if (ammoNotInMag<= reduceAmount)
@@ -63,11 +96,15 @@ public class Gun : MonoBehaviour
             currentMagSize += reduceAmount;
             ammoNotInMag -= reduceAmount;
         }
-
+        Debug.Log("Reloaded"); //aise hi
+        isReloading = false;
     }
 
+    //Shoot System
     void Shoot()
     {
+        //rduce the current ammo in magazine
+        currentMagSize--;
 
         //raycast shooting system
         RaycastHit hit;
@@ -75,8 +112,7 @@ public class Gun : MonoBehaviour
         {
 
             Debug.Log(hit.transform.name);
-            currentMagSize--;
-
+            
             EnemyAI enemy = hit.transform.GetComponent<EnemyAI>();
 
             if (hit.rigidbody != null)
@@ -93,3 +129,4 @@ public class Gun : MonoBehaviour
 
     }
 }
+//Copyright SPAR Group

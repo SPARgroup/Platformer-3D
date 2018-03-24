@@ -17,10 +17,9 @@ public class EnemyAI : MonoBehaviour {
     public IEnumerator damageOverTimecoroutine; 
 
     public HealthSystem hs;
-
     public SpawnManager sm;
 
-	// Use this for initialization
+  	// Use this for initialization
 	void Start ()
     {
         //spawnmanager required to trackj enemies in scene
@@ -31,7 +30,7 @@ public class EnemyAI : MonoBehaviour {
         //error handling
 		if (Target == null)
         {
-            Debug.Log("Enemy says : Who should I follow? You have not set my target");
+            Debug.Log("Enemy says : Bhai kisko follow karun?");
         }
 
         hs = Target.GetComponent<HealthSystem>();
@@ -59,7 +58,7 @@ public class EnemyAI : MonoBehaviour {
         {
             //start sending damage (refer to damage over time)
             isDamaging = true;
-            Debug.Log(" I am hurting the player!");
+            Debug.Log("Aaj to pita tu");
         }
 	}
 
