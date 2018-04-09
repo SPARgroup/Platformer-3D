@@ -29,10 +29,14 @@ public class Gun : MonoBehaviour
 
     private Coroutine reloadCoroutine;
 
+    
+
+    //public Animator shotgunAnim;
+
     private void Start()
     {
         weapongraphics = this.GetComponent<WeaponGraphics>();
-
+        //shotgunAnim = GetComponent<Animator>();
         Cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         fpsController = player.GetComponent<FirstPersonController>();
@@ -96,7 +100,7 @@ public class Gun : MonoBehaviour
             currentMagSize += reduceAmount;
             ammoNotInMag -= reduceAmount;
         }
-        Debug.Log("Reloaded"); //aise hi
+        Debug.Log("Reloaded"); //Mauj AA gayi
         isReloading = false;
     }
 
@@ -105,12 +109,12 @@ public class Gun : MonoBehaviour
     {
         //rduce the current ammo in magazine
         currentMagSize--;
-
+       // shotgunAnim.Play("Shotgun_Shoot", -1, 0f);
         //raycast shooting system
         RaycastHit hit;
         if (Physics.Raycast(Cam.transform.position, Cam.transform.forward, out hit, range))
         {
-
+            Debug.DrawRay(Cam.transform.position, Cam.transform.forward, Color.red, Mathf.Infinity);
             Debug.Log(hit.transform.name);
             
             EnemyAI enemy = hit.transform.GetComponent<EnemyAI>();

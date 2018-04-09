@@ -8,6 +8,7 @@ TagManager:
   - Weapon
   - SpawnManager
   - SpawnPoint
+  - Powerup
   layers:
   - Default
   - TransparentFX

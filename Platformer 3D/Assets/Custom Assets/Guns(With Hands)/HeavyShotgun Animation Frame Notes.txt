@@ -1,0 +1,4 @@
+Frame Notes - Heavy Shotgun
+
+0 - 7 = completely still
+7 - 380 = Idle Animation

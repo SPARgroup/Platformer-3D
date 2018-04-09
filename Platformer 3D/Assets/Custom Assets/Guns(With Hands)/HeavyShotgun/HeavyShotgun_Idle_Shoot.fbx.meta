@@ -1,0 +1,582 @@
+fileFormatVersion: 2
+guid: e93dc4f6edbb5b84f9a05af69b05d721
+timeCreated: 1522856137
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AK_47
+    100002: Bone
+    100004: Bone_end
+    100006: C_BeamBattery
+    100008: C_Body
+    100010: C_Bullet
+    100012: C_Mag
+    100014: C_MainBattery
+    100016: C_Sight
+    100018: C_Trigger
+    100020: clavicle_l
+    100022: clavicle_r
+    100024: Game_engine
+    100026: hand_l
+    100028: hand_r
+    100030: //RootNode
+    100032: index_01_l
+    100034: index_01_r
+    100036: index_02_l
+    100038: index_02_r
+    100040: index_03_l
+    100042: index_03_l_end
+    100044: index_03_r
+    100046: index_03_r_end
+    100048: Left_Hand__Goal
+    100050: lowerarm_l
+    100052: lowerarm_l_001
+    100054: lowerarm_l_end
+    100056: lowerarm_r
+    100058: lowerarm_r_001
+    100060: lowerarm_r_end
+    100062: male01Mesh
+    100064: middle_01_l
+    100066: middle_01_r
+    100068: middle_02_l
+    100070: middle_02_r
+    100072: middle_03_l
+    100074: middle_03_l_end
+    100076: middle_03_r
+    100078: middle_03_r_end
+    100080: pinky_01_l
+    100082: pinky_01_r
+    100084: pinky_02_l
+    100086: pinky_02_r
+    100088: pinky_03_l
+    100090: pinky_03_l_end
+    100092: pinky_03_r
+    100094: pinky_03_r_end
+    100096: Right_Hand___Goal
+    100098: ring_01_l
+    100100: ring_01_r
+    100102: ring_02_l
+    100104: ring_02_r
+    100106: ring_03_l
+    100108: ring_03_l_end
+    100110: ring_03_r
+    100112: ring_03_r_end
+    100114: Shotgun
+    100116: Shotgun_Hands_
+    100118: Subdivision_Surface
+    100120: thumb_01_l
+    100122: thumb_01_r
+    100124: thumb_02_l
+    100126: thumb_02_r
+    100128: thumb_03_l
+    100130: thumb_03_l_end
+    100132: thumb_03_r
+    100134: thumb_03_r_end
+    100136: upperarm_l
+    100138: upperarm_r
+    100140: Subdivision_Surface_1
+    400000: AK_47
+    400002: Bone
+    400004: Bone_end
+    400006: C_BeamBattery
+    400008: C_Body
+    400010: C_Bullet
+    400012: C_Mag
+    400014: C_MainBattery
+    400016: C_Sight
+    400018: C_Trigger
+    400020: clavicle_l
+    400022: clavicle_r
+    400024: Game_engine
+    400026: hand_l
+    400028: hand_r
+    400030: //RootNode
+    400032: index_01_l
+    400034: index_01_r
+    400036: index_02_l
+    400038: index_02_r
+    400040: index_03_l
+    400042: index_03_l_end
+    400044: index_03_r
+    400046: index_03_r_end
+    400048: Left_Hand__Goal
+    400050: lowerarm_l
+    400052: lowerarm_l_001
+    400054: lowerarm_l_end
+    400056: lowerarm_r
+    400058: lowerarm_r_001
+    400060: lowerarm_r_end
+    400062: male01Mesh
+    400064: middle_01_l
+    400066: middle_01_r
+    400068: middle_02_l
+    400070: middle_02_r
+    400072: middle_03_l
+    400074: middle_03_l_end
+    400076: middle_03_r
+    400078: middle_03_r_end
+    400080: pinky_01_l
+    400082: pinky_01_r
+    400084: pinky_02_l
+    400086: pinky_02_r
+    400088: pinky_03_l
+    400090: pinky_03_l_end
+    400092: pinky_03_r
+    400094: pinky_03_r_end
+    400096: Right_Hand___Goal
+    400098: ring_01_l
+    400100: ring_01_r
+    400102: ring_02_l
+    400104: ring_02_r
+    400106: ring_03_l
+    400108: ring_03_l_end
+    400110: ring_03_r
+    400112: ring_03_r_end
+    400114: Shotgun
+    400116: Shotgun_Hands_
+    400118: Subdivision_Surface
+    400120: thumb_01_l
+    400122: thumb_01_r
+    400124: thumb_02_l
+    400126: thumb_02_r
+    400128: thumb_03_l
+    400130: thumb_03_l_end
+    400132: thumb_03_r
+    400134: thumb_03_r_end
+    400136: upperarm_l
+    400138: upperarm_r
+    400140: Subdivision_Surface_1
+    2300000: AK_47
+    2300002: C_BeamBattery
+    2300004: C_Body
+    2300006: C_Bullet
+    2300008: C_Mag
+    2300010: C_MainBattery
+    2300012: C_Sight
+    2300014: C_Trigger
+    3300000: AK_47
+    3300002: C_BeamBattery
+    3300004: C_Body
+    3300006: C_Bullet
+    3300008: C_Mag
+    3300010: C_MainBattery
+    3300012: C_Sight
+    3300014: C_Trigger
+    4300000: C_BeamBattery
+    4300002: C_Body
+    4300004: C_Trigger
+    4300006: C_MainBattery
+    4300008: C_Sight
+    4300010: C_Bullet
+    4300012: C_Mag
+    4300014: AK_47
+    4300016: male01Mesh
+    4300018: Subdivision_Surface_1
+    7400000: Shotgun_Shoot
+    7400002: Shotgun_Idle
+    9500000: //RootNode
+    13700000: male01Mesh
+    13700002: Subdivision_Surface_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Shotgun_Shoot
+      takeName: CINEMA_4D_Main
+      firstFrame: 380
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Right_Hand___Goal
+        weight: 1
+      - path: Shotgun_Hands_
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/Bone
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/Bone/AK_47
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/Bone/Bone_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/index_01_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/index_01_l/index_02_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/index_01_l/index_02_l/index_03_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/index_01_l/index_02_l/index_03_l/index_03_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/middle_01_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/middle_01_l/middle_02_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/middle_01_l/middle_02_l/middle_03_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/middle_01_l/middle_02_l/middle_03_l/middle_03_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/pinky_01_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/pinky_01_l/pinky_02_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/pinky_01_l/pinky_02_l/pinky_03_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/pinky_01_l/pinky_02_l/pinky_03_l/pinky_03_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/ring_01_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/ring_01_l/ring_02_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/ring_01_l/ring_02_l/ring_03_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/ring_01_l/ring_02_l/ring_03_l/ring_03_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/thumb_01_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/thumb_01_l/thumb_02_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/thumb_01_l/thumb_02_l/thumb_03_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/thumb_01_l/thumb_02_l/thumb_03_l/thumb_03_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/index_01_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/index_01_r/index_02_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/middle_01_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/pinky_01_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/ring_01_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_BeamBattery
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_Body
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_Bullet
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_Mag
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_MainBattery
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_Sight
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_Trigger
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/Left_Hand__Goal
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/thumb_01_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Subdivision_Surface_1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shotgun_Idle
+      takeName: CINEMA_4D_Main
+      firstFrame: 0
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Right_Hand___Goal
+        weight: 1
+      - path: Shotgun_Hands_
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/Bone
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/Bone/AK_47
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/Bone/Bone_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/index_01_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/index_01_l/index_02_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/index_01_l/index_02_l/index_03_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/index_01_l/index_02_l/index_03_l/index_03_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/middle_01_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/middle_01_l/middle_02_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/middle_01_l/middle_02_l/middle_03_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/middle_01_l/middle_02_l/middle_03_l/middle_03_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/pinky_01_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/pinky_01_l/pinky_02_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/pinky_01_l/pinky_02_l/pinky_03_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/pinky_01_l/pinky_02_l/pinky_03_l/pinky_03_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/ring_01_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/ring_01_l/ring_02_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/ring_01_l/ring_02_l/ring_03_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/ring_01_l/ring_02_l/ring_03_l/ring_03_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/thumb_01_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/thumb_01_l/thumb_02_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/thumb_01_l/thumb_02_l/thumb_03_l
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_l/upperarm_l/lowerarm_l/lowerarm_l_end/lowerarm_l_001/hand_l/thumb_01_l/thumb_02_l/thumb_03_l/thumb_03_l_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/index_01_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/index_01_r/index_02_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/index_01_r/index_02_r/index_03_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/index_01_r/index_02_r/index_03_r/index_03_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/middle_01_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/middle_01_r/middle_02_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/middle_01_r/middle_02_r/middle_03_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/middle_01_r/middle_02_r/middle_03_r/middle_03_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/pinky_01_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/pinky_01_r/pinky_02_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/pinky_01_r/pinky_02_r/pinky_03_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/pinky_01_r/pinky_02_r/pinky_03_r/pinky_03_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/ring_01_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/ring_01_r/ring_02_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/ring_01_r/ring_02_r/ring_03_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/ring_01_r/ring_02_r/ring_03_r/ring_03_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_BeamBattery
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_Body
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_Bullet
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_Mag
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_MainBattery
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_Sight
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/C_Trigger
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/Shotgun/Left_Hand__Goal
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/thumb_01_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/thumb_01_r/thumb_02_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/thumb_01_r/thumb_02_r/thumb_03_r
+        weight: 1
+      - path: Shotgun_Hands_/Game_engine/clavicle_r/upperarm_r/lowerarm_r/lowerarm_r_end/lowerarm_r_001/hand_r/thumb_01_r/thumb_02_r/thumb_03_r/thumb_03_r_end
+        weight: 1
+      - path: Shotgun_Hands_/Subdivision_Surface_1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
